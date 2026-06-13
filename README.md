@@ -47,13 +47,6 @@ An interactive product management page with:
 2. Right-click on `index.html` and select "Open with Live Server"
 3. Browser will auto-reload on file changes
 
-### Option 3: Using Python (Simple Server)
-```bash
-cd EXAM_TASKS/TASK_1
-python -m http.server 8000
-# Visit http://localhost:8000
-```
-
 ---
 
 ## 📁 Project Structure
