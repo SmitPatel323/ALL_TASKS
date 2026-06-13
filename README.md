@@ -87,10 +87,9 @@ EXAM_TASKS/
 The following AI tools were utilized during development:
 
 1. **Tailwind CSS Styling** — AI-assisted for responsive utility class recommendations
-2. **JavaScript Logic** — AI-assisted for product filtering and sorting algorithms
-3. **Mobile Responsiveness** — AI-assisted for breakpoint strategy and layout decisions
-4. **Code Structure** — AI-assisted for semantic HTML and best practices
-5. **README Documentation** — AI-assisted for clear and comprehensive project documentation
+2. **Mobile Responsiveness** — AI-assisted for breakpoint strategy and layout decisions
+3. **Code Structure** — AI-assisted for semantic HTML and best practices
+4. **README Documentation** — AI-assisted for clear and comprehensive project documentation
 
 ---
 
