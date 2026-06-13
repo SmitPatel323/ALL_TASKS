@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clevision - Building the Future of Web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="#home" class="text-2xl font-bold text-blue-600">
+                        Clevision
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-blue-600 transition">Home</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
+                    <a href="#services" class="text-gray-700 hover:text-blue-600 transition">Services</a>
+                    <a href="#contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-blue-600 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <nav id="mobile-menu" class="hidden md:hidden pb-4 space-y-2">
+                <a href="#home" class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded transition">Home</a>
+                <a href="#about" class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded transition">About</a>
+                <a href="#services" class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded transition">Services</a>
+                <a href="#contact" class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded transition">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <!-- Text Content -->
+            <div class="order-2 md:order-1">
+                <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+                    Building the Future of Web
+                </h1>
+                <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                    We create innovative digital solutions that transform your business. Our expert team specializes in delivering cutting-edge web experiences that engage users and drive results.
+                </p>
+                <button class="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">
+                    Get Started
+                </button>
+            </div>
+
+            <!-- Image Content -->
+            <div class="order-1 md:order-2">
+                <img 
+                    src="https://placehold.co/500x400/3B82F6/FFFFFF?text=Web+Design" 
+                    alt="Web Design" 
+                    class="w-full h-auto rounded-lg shadow-lg object-cover"
+                >
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section (optional, for better content flow) -->
+    <section id="about" class="bg-gray-50 py-12 md:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">
+                About Us
+            </h2>
+            <p class="text-lg text-gray-600 text-center max-w-2xl mx-auto">
+                Clevision Technologies is a dedicated team of web professionals committed to delivering excellence in every project we undertake.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section (optional, for better content flow) -->
+    <section id="services" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
+            Our Services
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold text-gray-900 mb-4">Web Design</h3>
+                <p class="text-gray-600">Beautiful, responsive designs that captivate your audience.</p>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold text-gray-900 mb-4">Development</h3>
+                <p class="text-gray-600">Robust, scalable web applications built for performance.</p>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition">
+                <h3 class="text-xl font-semibold text-gray-900 mb-4">Optimization</h3>
+                <p class="text-gray-600">Speed, SEO, and user experience improvements for results.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <!-- Company Name -->
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-4">Clevision Technologies</h3>
+                    <p class="text-sm text-gray-400">Innovative digital solutions for modern businesses.</p>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4">Contact</h3>
+                    <p class="text-sm mb-2">
+                        <span class="font-semibold">Email:</span> 
+                        <a href="mailto:info@clevision.com" class="hover:text-blue-400 transition">
+                            info@clevision.com
+                        </a>
+                    </p>
+                    <p class="text-sm">
+                        <span class="font-semibold">Phone:</span> 
+                        <a href="tel:+1234567890" class="hover:text-blue-400 transition">
+                            +1 (234) 567-890
+                        </a>
+                    </p>
+                </div>
+
+                <!-- Social Media Links -->
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://facebook.com" class="hover:text-blue-400 transition" aria-label="Facebook">
+                            <span class="text-2xl">f</span>
+                        </a>
+                        <a href="https://twitter.com" class="hover:text-blue-400 transition" aria-label="Twitter">
+                            <span class="text-2xl">𝕏</span>
+                        </a>
+                        <a href="https://linkedin.com" class="hover:text-blue-400 transition" aria-label="LinkedIn">
+                            <span class="text-2xl">in</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-700 pt-8">
+                <!-- Copyright -->
+                <p class="text-center text-sm text-gray-400">
+                    &copy; 2026 Clevision Technologies. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', function() {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
